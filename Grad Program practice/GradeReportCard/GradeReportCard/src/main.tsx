@@ -1,10 +1,10 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./styles.css";
 
-import ReportCard from './components/ReportCard.tsx'
+import ReportCard from "./components/ReportCard.tsx";
 
-import Leaderboard from './components/Leaderboard.tsx'
+import Leaderboard from "./components/Leaderboard.tsx";
 
 const students = [
   { name: "Alice Mercer", grade: 95 },
@@ -17,6 +17,11 @@ const students = [
   { name: "Hana Petrov", grade: 33 },
   { name: "Ivan Castillo", grade: 78 },
   { name: "Jade Williamson", grade: 67 },
+  { name: "Kofi Mensah", grade: 88 },
+  { name: "Luna Park", grade: 72 },
+  { name: "Marcus Webb", grade: 41 },
+  { name: "Nadia Osei", grade: 96 },
+  { name: "Omar Farouq", grade: 63 },
 ];
 
 const players = [
@@ -30,11 +35,24 @@ const players = [
   { name: "Maya Johansson", score: 82 },
   { name: "Carlos Mendes", score: 67 },
   { name: "Priya Sharma", score: 91 },
-]
- 
-createRoot(document.getElementById('root')!).render(
+  { name: "Remi Dubois", score: 58 },
+  { name: "Sana Ito", score: 76 },
+  { name: "Tobias Müller", score: 85 },
+  { name: "Yuki Nakamura", score: 70 },
+  { name: "Zoe Adeyemi", score: 99 },
+];
+
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <ReportCard students={students} />
-    <Leaderboard players={players} />
-  </StrictMode>
-)
+    <div className="page-header">
+      <span className="eyebrow">Academic Year 2026</span>
+      <h1>Student Dashboard</h1>
+      <p>Track grades, rankings, and performance at a glance.</p>
+    </div>
+
+    <div className="sections">
+      <ReportCard students={students} />
+      <Leaderboard players={players} />
+    </div>
+  </StrictMode>,
+);
