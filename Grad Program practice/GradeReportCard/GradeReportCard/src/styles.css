@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+  --bg: #f7f3ef;
+  --surface: #ffffff;
+  --surface-2: #fdf8f5;
+  --border: #e8e0d8;
+
+  --pastel-green: #c8e6c9;
+  --pastel-blue: #bbdefb;
+  --pastel-peach: #ffccbc;
+  --pastel-yellow: #fff9c4;
+  --pastel-red: #ffcdd2;
+  --pastel-lavender: #e1bee7;
+  --pastel-mint: #b2dfdb;
+
+  --grade-a: #d4edda;
+  --grade-b: #cce5f7;
+  --grade-c: #fde8c8;
+  --grade-d: #fad7c0;
+  --grade-fail: #f8d0d0;
+
+  --text-primary: #2d2520;
+  --text-secondary: #7a6e68;
+  --text-muted: #b0a8a3;
+
+  --gold: #f0c040;
+  --silver: #c8c8d4;
+  --bronze: #e0a070;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 20px rgba(0,0,0,0.08);
+  --shadow-lg: 0 8px 40px rgba(0,0,0,0.10);
+}
