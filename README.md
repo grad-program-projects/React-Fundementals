@@ -1,10 +1,10 @@
-# 🎓 Student Dashboard
+#  Student Dashboard
 
 A modern, pastel-themed React + TypeScript dashboard for displaying student grades and player leaderboards. Built with Vite for fast development and a clean light UI aesthetic.
 
 ---
 
-## 📸 Preview
+## Preview
 
 The dashboard features two panels side-by-side:
 - **Report Card** — lists students with colour-coded grade badges (A–F) and summary stats
@@ -14,7 +14,7 @@ The dashboard features two panels side-by-side:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -32,7 +32,7 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -47,7 +47,7 @@ src/
 
 ---
 
-## 🎨 Design System
+##  Design System
 
 The UI uses a **soft pastel light theme** built entirely with CSS custom properties.
 
@@ -75,7 +75,7 @@ All list items fade and slide up using `@keyframes fadeUp` with staggered `anima
 
 ---
 
-## 🧠 Component Reference
+## Component Reference
 
 ### `<ReportCard students={students} />`
 
@@ -107,7 +107,7 @@ Pure utility function. Returns `{ gradeLabel, className }` based on:
 
 ---
 
-## 🌿 Git Workflow (GitFlow)
+##  Git Workflow (GitFlow)
 
 my project follows the **GitFlow** branching model.
 
@@ -143,7 +143,7 @@ git push origin feature/your-feature-name
 
 Then open a **Pull Request** from `feature/your-feature-name` → `develop`.
 
-## 📦 Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |---|---|
