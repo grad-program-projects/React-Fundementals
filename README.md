@@ -9,7 +9,7 @@ A modern, pastel-themed React + TypeScript dashboard for displaying student grad
 The dashboard features two panels side-by-side:
 - **Report Card** — lists students with colour-coded grade badges (A–F) and summary stats
 - **Leaderboard** — ranks players by score with medal indicators and animated score bars
-- ![App screenshot](GradeReportCard/src/assets/images/Screenshot 2026-02-24 at 07.26.23.png)
+- ![App screenshot](/GradeReportCard/src/assets/images/Screenshot 2026-02-24 at 07.26.23.png)
 
 
 ---
